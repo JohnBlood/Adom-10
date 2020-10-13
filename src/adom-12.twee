@@ -1,0 +1,12 @@
+:: StoryTitle
+Adom-10
+
+:: StoryData
+{
+
+	"format": "SugarCube",
+	"format-version": "2.30.0",
+	"start": "Start"
+}
+
+:: Start
