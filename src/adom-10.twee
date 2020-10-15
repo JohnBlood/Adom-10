@@ -1,0 +1,51 @@
+:: StoryTitle
+Adom-10
+
+:: StoryData
+{
+    "ifid": "3388523B-8D5E-4A3D-BDB7-C68FC227C0CF",
+	"format": "SugarCube",
+	"format-version": "2.30.0",
+    "start": "Start",
+    "zoom": 1
+}
+
+:: Start
+
+
+
+ AA  DDD   OOO  M   M      11   000  
+A  A D  D O   O MM MM     111  0  00 
+AAAA D  D O   O M M M ---  11  0 0 0 
+A  A D  D O   O M   M      11  00  0 
+A  A DDD   OOO  M   M     11l1  000  
+                                     
+                                    
+                                     
+Copyright (c) Osorkom Industries
+                                                     
+Welcome to the ADOM-10 operating system. To continue, please enter your password.
+
+[[**********|Pasword1]]
+
+[[********|Pasword2]]
+
+[[*****+*****|Pasword3]]
+
+
+:: Pasword1
+
+
+
+
+:: Pasword2
+
+
+
+
+:: Pasword3
+
+<span class="error">
+I'm Sorry. You've entered the wrong password. Please go back and try again.
+
+</span>

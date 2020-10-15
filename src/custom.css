@@ -13,3 +13,7 @@ img {
   height: auto;
   width: auto\9;
 }
+error {
+  color: firebrick;
+
+}
