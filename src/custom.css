@@ -13,7 +13,12 @@ img {
   height: auto;
   width: auto\9;
 }
-error {
+.error {
   color: firebrick;
-
+}
+h2 {
+  color: firebrick;
+}
+h3 {
+  color: lightgreen;
 }

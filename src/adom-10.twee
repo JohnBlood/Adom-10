@@ -12,40 +12,48 @@ Adom-10
 
 :: Start
 
-
-
- AA  DDD   OOO  M   M      11   000  
-A  A D  D O   O MM MM     111  0  00 
-AAAA D  D O   O M M M ---  11  0 0 0 
-A  A D  D O   O M   M      11  00  0 
-A  A DDD   OOO  M   M     11l1  000  
-                                     
-                                    
+Welcome to the ADOM-10 operating system.
                                      
 Copyright (c) Osorkom Industries
                                                      
-Welcome to the ADOM-10 operating system. To continue, please enter your password.
+To continue, please enter your password. If you do not enter the correct password, there will be issues.
 
-[[**********|Pasword1]]
+[[**********|Password1]]
 
-[[********|Pasword2]]
+[[********|Password2]]
 
-[[*****+*****|Pasword3]]
-
-
-:: Pasword1
+[[*****+*****|Password3]]
 
 
+:: Password1
 
+Thank you for correctly entering your password
 
-:: Pasword2
-
+How many I help you?
 
 
 
-:: Pasword3
 
-<span class="error">
-I'm Sorry. You've entered the wrong password. Please go back and try again.
+:: Password2
 
-</span>
+
+
+
+:: Password3
+
+
+!!!I'm Sorry. You've entered the wrong password. Please try again.
+
+[[**********|Password1]]
+
+[[********|Password2]]
+
+[[*****+*****|Password3.1]]
+
+:: Password3.1
+
+[[**********|Password1]]
+
+[[********|Password2]]
+
+[[*****+*****|Password3.2]]
