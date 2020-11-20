@@ -13,7 +13,7 @@ img {
   height: auto;
   width: auto\9;
 }
-.error {
+span {
   color: firebrick;
 }
 h2 {

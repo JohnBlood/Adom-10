@@ -5,23 +5,21 @@ Adom-10
 {
     "ifid": "3388523B-8D5E-4A3D-BDB7-C68FC227C0CF",
     "format": "SugarCube",
-    "format-version": "2.30.0",
+    "format-version": "2.33.4",
     "start": "Start",
     "zoom": 1
 }
 
-:: script
-
-typeWriter("#robot","true",20);
 
 :: Start
 
-<p id="robot">
+<<type 40ms keep>>
 Welcome to the ADOM-10 operating system.
                                      
 Copyright (c) Osorkom Industries
                                                      
-To continue, please enter your password. If you do not enter the correct password, there will be consequences.</p>
+To continue, please enter your password. If you do not enter the correct password, there will be consequences.
+<</type>>
 
 [[q%c*3g$|Password1]]
 
@@ -32,9 +30,10 @@ To continue, please enter your password. If you do not enter the correct passwor
 
 :: Password1
 
+<<type 40ms keep>>
 Thank you for correctly entering your password.
 
-How may this unit assist you?
+How may this unit assist you?<</type>>
 
 
 [[What is your purpose?|purpose1]]
