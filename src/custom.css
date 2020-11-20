@@ -1,24 +1,9 @@
-body {
+.computer {
   font-family: 'VT323', monospace;
-  font-size: 16px;
-  background: #000000;
   color: #00b300;
-  margin: 20px 40px;
   }
-a {
-  color: #00b300;
- }
-img {
-  max-width: 100%;
-  height: auto;
-  width: auto\9;
-}
 span {
   color: firebrick;
+  font-family: 'VT323', monospace;
 }
-h2 {
-  color: firebrick;
-}
-h3 {
-  color: purple;
-}
+
