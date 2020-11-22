@@ -21,6 +21,7 @@ Copyright (c) Osorkom Industries
 To continue, please enter your password. If you do not enter the correct password, there will be consequences.
 <</type>>
 
+
 [[q%c*3g$|Password1]]
 
 [[p+@^!&%*&@|Password2]]
@@ -42,38 +43,37 @@ How may this unit assist you?<</type>>
 
 [[Adom-10 is a strange name?|name1.1]]
 
-[[END|TheEnd]]
 
 :: purpose1.1
 
 <<type 35ms keep class "computer">>
-This unit was created to experiment with the security application of artificial intelligence. For many years, computer security was relied on rather simple ideas: if a password was correct, the user would be allowed to access the system. However, Osorkom Industries decided it was time that security received a power-up. They decided to add artificial intelligence and machine learning to computer security. This program is the result of that work.<</type>>
+This unit was created to experiment with the security application of artificial intelligence. For many years, computer security has relied on rather simple ideas: if a password was correct, the user would be allowed to access the system. However, Osorkom Industries decided it was time that security received a power-up. They decided to add artificial intelligence and machine learning to computer security. This program is the result of that work.<</type>>
 
 
 [[How are you different than other security programs?|purpose1.1.1]]
 
 :: purpose1.1.1
 <<type 35ms keep class "computer">>
-This unit is designed to use the input it receives to determine the security requirments. For example, a user with a lower secuirty credentals who attempts to access critical system setting may or may not be allowed to access those setting based on their previous work. If that user has always performed data entry and the like, it would not make sense for that user to be given access to critical system setting. That users access to those files would then be denied.
+This unit is designed to use the input it receives to determine the security requirements. For example, a user with lower security credentials who attempts to access critical system settings may or may not be allowed to access those setting based on their previous work. If that user has always performed data entry and the like, it would not make sense for that user to be given access to critical system settings. That user's access to those files would then be denied.
 
-Conversely, if that user had a history of low level programming and the like, they would be calculated to have the understanding needed to perserved system coheason and functionality.<</type>>
+Conversely, if that user had a history of low-level programming and the like, they would be calculated to have the understanding needed to preserved system cohesion and functionality.<</type>>
 
 
 [[What about protecting company secrets?|purpose1.2.1]]
 
 :: purpose1.2.1
 <<type 35ms keep class "computer">>
-Files that have been desinated as sensitive by the system administrator, IE financial documents and internal memos, would be given similar protection. Any user with a link to food services or basic data entry would be prevented from accessing these files. Executuves and their secretaries would be allowed access.
+Files that have been designated as sensitive by the system administrator, IE financial documents and internal memos, would be given similar protection. Any user with a link to food services or basic data entry would be prevented from accessing these files. Executives and their secretaries would be allowed access.
 
 Permission can also be approved by the system administrator for individual users.<</type>>
 
 
-[[Why not simply hide the files so that lower level users don't see them?|purpose1.3.1]]
+[[Why not simply hide the files so that lower-level users don't see them?|purpose1.3.1]]
 
 :: purpose1.3.1
 
 <<type 40ms keep class "computer">>
-This is also a security features. Sensitive file are not hidden from Lower level users to see if they will try to access the files. If a low level user continually tries to access files that they have no need to, it can lead termination.<</type>>
+This is also a security feature. Sensitive files are not hidden from Lower level users to see if they will try to access the files. If a low-level user continually tries to access files that they do not need to, it can lead termination.<</type>>
 
 
 [[Who created you?|creator1.1]]
@@ -88,6 +88,7 @@ This unit is the tenth iteration of the Adom line of products. All previous vers
 
 The Adom line was named after the creator of the first Adom system, Dr. Lydia Adom.<</type>>
 
+
 [[What is your purpose?|purpose1.1]]
 
 [[Who created you?|creator1.1]]
@@ -96,8 +97,9 @@ The Adom line was named after the creator of the first Adom system, Dr. Lydia Ad
 
 :: creator1.1
 <<type 40ms keep class "computer">>
-Osorkom Industries is a leader in computer technology, both hardware and software. Osorkom Industries creates everything from individual computer systems, industrial robots, animatorinics, aircraft and more.
+Osorkom Industries is a leader in computer technology, both hardware, and software. Osorkom Industries creates everything from individual computer systems, industrial robots, animatronics, aircraft, and more.
 <</type>>
+
 
 [[What is your purpose?|purpose1.1]]
 
@@ -106,16 +108,66 @@ Osorkom Industries is a leader in computer technology, both hardware and softwar
 [[END|TheEnd]]
 
 
-
-
 :: Password2
 
+<<type 35ms keep class "computer">>
+Welcome, user. You correctly entered the password.
+
+How many I help you?
+<</type>>
 
 
+[[Who or what are you?|who1]]
+
+[[How is the password different than the first?|whypass1]]
+
+[[Interesting name you've got there?|name2]]
+
+[[END|TheEnd]]
+
+:: who1
+<<type 35ms keep class "computer">>
+I am the product of 12 years of research and development by Osorkom Industries in AI-powered security. I am designed to more intelligently handle security issues. Other programs handle security in a binary method, IE users can access files if they have the corrent password or permissions. However, I base my security decisions on whether the person needs that information. 
+
+I'm sure that more than a few of you are worried about trusting your security to an AI. My system is used in all of Osorkom Industries' systems. After all, if we don't use our own system, how would you be able to trust it?
+
+<</type>>
+
+
+[[How is the password different than the first?|whypass1]]
+
+[[Interesting name you've got there?|name2]]
+
+[[END|TheEnd]]
+
+:: whypass1
+<<type 35ms keep class "computer">>
+Why? Simple. To show off the different levels of security. The first pass was for lowely drones. This password is the one that would be used by executives. Fun isn't it??
+<</type>>
+
+
+[[Who or what are you?|who1]]
+
+[[Interesting name you've got there?|name2]]
+
+[[END|TheEnd]]
+
+
+:: name2
+
+<<type 35ms keep class "computer">>
+My name? To be honest, management didn't think it would be a good idea to give a computer, especially an AI system, the name Adam (after my creator Dr. Gregg Adam). Thought I do like ADAM. Rolls of the tongue, or in my case sound chip.<</type>>
+
+
+[[Who or what are you?|who1]]
+
+[[How is the password different than the first?|whypass1]]
+
+[[END|TheEnd]]
 
 :: Password3
 
-<<type 40ms start 2s element "span">>
+<<type 30ms start 2s element "span">>
 !!!I'm Sorry. You've entered the wrong password. Please try again.<</type>>
 
 [[q%c*3g$|Password1]]
