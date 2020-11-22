@@ -36,56 +36,77 @@ Thank you for correctly entering your password.
 How may this unit assist you?<</type>>
 
 
-[[What is your purpose?|purpose1]]
+[[What is your purpose?|purpose1.1]]
 
-[[Who created you?|creator1]]
+[[Who created you?|creator1.1]]
 
-[[Adom-10 is a strange name?|name1]]
+[[Adom-10 is a strange name?|name1.1]]
 
+[[END|TheEnd]]
 
-:: purpose1
+:: purpose1.1
 
 <<type 35ms keep class "computer">>
 This unit was created to experiment with the security application of artificial intelligence. For many years, computer security was relied on rather simple ideas: if a password was correct, the user would be allowed to access the system. However, Osorkom Industries decided it was time that security received a power-up. They decided to add artificial intelligence and machine learning to computer security. This program is the result of that work.<</type>>
 
 
-[[How are you different than other security programs?|purpose1.1]]
+[[How are you different than other security programs?|purpose1.1.1]]
 
-:: purpose1.1
+:: purpose1.1.1
 <<type 35ms keep class "computer">>
 This unit is designed to use the input it receives to determine the security requirments. For example, a user with a lower secuirty credentals who attempts to access critical system setting may or may not be allowed to access those setting based on their previous work. If that user has always performed data entry and the like, it would not make sense for that user to be given access to critical system setting. That users access to those files would then be denied.
 
 Conversely, if that user had a history of low level programming and the like, they would be calculated to have the understanding needed to perserved system coheason and functionality.<</type>>
 
 
-[[What about protecting company secrets?|purpose1.2]]
+[[What about protecting company secrets?|purpose1.2.1]]
 
-:: purpose1.2
+:: purpose1.2.1
 <<type 35ms keep class "computer">>
 Files that have been desinated as sensitive by the system administrator, IE financial documents and internal memos, would be given similar protection. Any user with a link to food services or basic data entry would be prevented from accessing these files. Executuves and their secretaries would be allowed access.
 
 Permission can also be approved by the system administrator for individual users.<</type>>
 
 
-[[Why not simply hide the files so that lower level users don't see them?|purpose1.3]]
+[[Why not simply hide the files so that lower level users don't see them?|purpose1.3.1]]
 
-:: purpose1.3
+:: purpose1.3.1
 
 <<type 40ms keep class "computer">>
 This is also a security features. Sensitive file are not hidden from Lower level users to see if they will try to access the files. If a low level user continually tries to access files that they have no need to, it can lead termination.<</type>>
 
 
-[[Who created you?|creator1]]
+[[Who created you?|creator1.1]]
 
-[[Adom-10 is a strange name?|name1]]
+[[Adom-10 is a strange name?|name1.1]]
 
-:: name1
+[[END|TheEnd]]
+
+:: name1.1
 <<type 40ms keep class "computer">>
 This unit is the tenth iteration of the Adom line of products. All previous versions are not for sale.
 
 The Adom line was named after the creator of the first Adom system, Dr. Lydia Adom.<</type>>
 
-:: creator1
+[[What is your purpose?|purpose1.1]]
+
+[[Who created you?|creator1.1]]
+
+[[END|TheEnd]]
+
+:: creator1.1
+<<type 40ms keep class "computer">>
+Osorkom Industries is a leader in computer technology, both hardware and software. Osorkom Industries creates everything from individual computer systems, industrial robots, animatorinics, aircraft and more.
+<</type>>
+
+[[What is your purpose?|purpose1.1]]
+
+[[Adom-10 is a strange name?|name1.1]]
+
+[[END|TheEnd]]
+
+
+
 
 :: Password2
 
@@ -119,7 +140,7 @@ The Adom line was named after the creator of the first Adom system, Dr. Lydia Ad
 
 :: TheEnd
 
-!!!Thank you for taking the time to test Osorkom Industries' new security system.
+!!Thank you for taking the time to test Osorkom Industries' new security system.
 
 We hope that while this trial, although it was short, demonstrated the features of the Adom-10 security system.
 
