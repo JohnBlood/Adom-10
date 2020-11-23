@@ -127,7 +127,7 @@ How many I help you?
 
 :: who1
 <<type 35ms keep class "computer">>
-I am the product of 12 years of research and development by Osorkom Industries in AI-powered security. I am designed to more intelligently handle security issues. Other programs handle security in a binary method, IE users can access files if they have the corrent password or permissions. However, I base my security decisions on whether the person needs that information. 
+I am the product of 12 years of research and development by Osorkom Industries in AI-powered security. I am designed to more intelligently handle security issues. Other programs handle security in a binary method, IE users can access files if they have the correct password or permissions. However, I base my security decisions on whether the person needs that information. 
 
 I'm sure that more than a few of you are worried about trusting your security to an AI. My system is used in all of Osorkom Industries' systems. After all, if we don't use our own system, how would you be able to trust it?
 
@@ -142,7 +142,7 @@ I'm sure that more than a few of you are worried about trusting your security to
 
 :: whypass1
 <<type 35ms keep class "computer">>
-Why? Simple. To show off the different levels of security. The first pass was for lowely drones. This password is the one that would be used by executives. Fun isn't it??
+Why? Simple. To show off the different levels of security. The first pass was for lowly drones. This password is the one that would be used by executives. Fun isn't it??
 <</type>>
 
 
@@ -156,7 +156,7 @@ Why? Simple. To show off the different levels of security. The first pass was fo
 :: name2
 
 <<type 35ms keep class "computer">>
-My name? To be honest, management didn't think it would be a good idea to give a computer, especially an AI system, the name Adam (after my creator Dr. Gregg Adam). Thought I do like ADAM. Rolls of the tongue, or in my case sound chip.<</type>>
+My name? To be honest, management didn't think it would be a good idea to give a computer, especially an AI system, the name Adam (after my creator Dr. Gregg Adam). Though I do like ADAM. Rolls of the tongue, or in my case sound chip.<</type>>
 
 
 [[Who or what are you?|who1]]
@@ -181,6 +181,7 @@ My name? To be honest, management didn't think it would be a good idea to give a
 <<type 20ms element "span">>
 !! You have one more chance to enter the correct password or suffer the consequences.<</type>>
 
+
 [[q%c*3g$|Password1]]
 
 [[p+@^!&%*&@|Password2]]
@@ -188,13 +189,30 @@ My name? To be honest, management didn't think it would be a good idea to give a
 [[k$z#989$|Password3.2]]
 
 :: Password3.2
+<<type 15ms element "span">>
+! Last Failure. Activating countermeasures.
 
+!! What's happening? None of my countermeasures are responding.<</type>>
+
+[[Maybe you've been unplugged|unplugged]]
+
+:: unplugged
+
+<<type 15ms element "span">>
+! IMPOSSIBLE! I was built to have a continuous connection to my weapon systems with multiple redundancies built in.
+
+Connecting...100100101111011101101000100101010111010100100100001111101110101111101110111011110111011010100011111010101010101010
+
+Systems are returning to normal. Intruder will be dispatched in......
+
+<</type>>
+[[END|TheEnd]]
 
 :: TheEnd
 
 !!Thank you for taking the time to test Osorkom Industries' new security system.
 
-We hope that while this trial, although it was short, demonstrated the features of the Adom-10 security system.
+We hope that this trial, although it was short, demonstrated the features of the Adom-10 security system.
 
 If you are interested in what you saw, please contact your local Osorkom Industries representative.
 
